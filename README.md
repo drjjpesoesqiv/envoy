@@ -1,11 +1,13 @@
 # jpeso_Envoy
-Adds products in URL request to cart.
 
-Links are time-gated.
+**A magento2 extension**
 
-Takes a base64 encoded json string in $_GET['request'].
-
-Default timeout is 60 seconds. Can be changed in admin panel.
+<p>
+A URL endpoint that adds one or more items to a customer cart.<br>
+Takes a base64 encoded json string in $_GET['request'].<br>
+All links should contain the UNIX time.<br>
+Default timeout is 60 seconds and can be changed in admin panel.<br>
+</p>
 
 Request JSON Example
 ```
